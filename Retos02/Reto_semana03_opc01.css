@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: candara;
+    /* temporal */
+    /*border: 1px solid rgb(221, 220, 220);*/
+}
+
+.contenedor{
+    max-width: 600px;
+    margin: 0 auto;
+    min-height: calc(165vh - 100px - 300px); /* para mantener el footer abajo */
+}
+
+.recuadros_grandes{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.caja{
+    width: 130px;
+    height: 150px;
+    background: rgb(13, 28, 35);
+    color: rgb(140, 182, 187);
+    padding-top: 50px;
+}
+
+.recuadros_chicos{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.cajitas{
+    width: 65px;
+    height: 65px;
+    background: rgb(136, 188, 210);
+    color: rgb(8, 21, 27);
+    padding-top: 17px;
+}
+
+h5{
+    font-size: 19px;
+}
+
+footer{
+    font-family: sans-serif;
+    font-size: 13px;
+    background: rgb(2, 6, 63);
+    color: white;
+}
+
