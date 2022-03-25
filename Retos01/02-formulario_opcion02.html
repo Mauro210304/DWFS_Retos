@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Opcion 02</title>
+    <link rel="stylesheet" href="./02-opcion02.css">
+</head>
+<body>
+    <section>
+        <form>
+            <h1>Sing Up</h1>
+            <label>First name</label>
+            <br>
+            <input
+                class="caja"
+                type="text"
+                minlength="6"
+                pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}"
+                required
+            >
+            <br>
+            <br>
+            <label>Age</label>
+            <br>
+            <input
+                class="caja"
+                type="number"
+                min="18"
+                max="120"
+                required
+            >
+            <br>
+            <br>
+            <label>Income</label>
+            <br>
+            <input
+                class="caja"
+                type="text"
+                pattern="[-+]?[0-9]*[.,]?[0-9]+"
+                required
+            >
+            <br>
+            <br>
+            <label>More info</label>
+            <br>
+            <textarea name="" id="" cols="31" rows="3" minlength="6"></textarea>
+            <br>
+            <br>
+            <label>Gender</label>
+            <br>
+            <input type="radio" name="genero" value="M">Male
+            <input type="radio" name="genero" value="F">Female
+            <input type="radio" name="genero" value="T">Trans
+            <br>
+            <br>
+            <label>Plan</label>
+            <br>
+            <select class="caja">
+                    <option selected disabled>Select plan</option>
+                    <option value="plan 01">Plan 01</option>
+                    <option value="plan 02">Plan 02</option>
+                    <option value="plan 03">Plan 03</option>
+            </select>
+            <br>
+            <br>
+            <input type="checkbox" value="suscripcion">Subscribe to Newsletter
+            <br>
+            <br>
+            <input class="boton" type="submit" value="Update">
+            </form>
+    </section>
+    <footer>
+        <div>
+            <p>© 2022 Mauro TB | 
+                <a href="mailto:jmtarazonabernal@gmail.com">Correo e</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

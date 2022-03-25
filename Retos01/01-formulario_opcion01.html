@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Opcion 01</title>
+    <link rel="stylesheet" href="./01-opcion01.css">
+</head>
+<body>
+    <header>
+        
+    </header>
+    <section>
+        <form>
+            <h1>CREATE YOUR ACCOUNT</h1>
+            <h2>This is step 1</h2>
+            <input class="caja"
+                type="email"
+                placeholder="Email"
+                required
+            >
+            <br>
+            <br>
+            <input class="caja"
+                type="password"
+                placeholder="Password"
+                minlength="6"
+                maxlength="10"
+                pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+                required
+            >
+            <br>
+            <br>
+            <input class="caja"
+                type="password"
+                placeholder="Confirm Password"
+                minlength="6"
+                maxlength="10"
+                pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+                required
+            >
+            <br>
+            <br>
+            <input class="boton" type="submit" value="Next">
+        </form>
+    </section>
+    <footer>
+        <div>
+            <p>© 2022 Mauro TB | 
+                <a href="mailto:jmtarazonabernal@gmail.com">Correo</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
